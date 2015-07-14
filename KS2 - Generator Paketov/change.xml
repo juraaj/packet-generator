@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<configure_summary>
+  <item>
+    <filter_parameters>
+      <protocol>UDP</protocol>
+      <local_address>147.175.106.141</local_address>
+    </filter_parameters>
+    <change_parameters>
+       <remote_port>53</remote_port>
+    </change_parameters>
+  </item>
+  <item>
+    <filter_parameters>
+      <protocol>TCP</protocol>
+      <remote_address>173.194.39.100</remote_address>
+    </filter_parameters>
+    <change_parameters>
+      <remote_port>143</remote_port>
+    </change_parameters>
+  </item>
+  <item>
+    <filter_parameters>
+    <protocol>IPX</protocol>
+      <remote_net_address>30 09 80 00</remote_net_address>
+    </filter_parameters>
+    <change_parameters>
+      <protocol_type>RIP</protocol_type>
+    </change_parameters>
+  </item>
+   <item>
+    <filter_parameters>
+    <protocol>IRPT</protocol>
+      <type>4</type>
+    </filter_parameters>
+    <change_parameters>
+      <type>2</type>
+    </change_parameters>
+  </item>
+</configure_summary>
+
